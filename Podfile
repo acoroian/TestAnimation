@@ -6,5 +6,6 @@ target 'Test' do
   use_frameworks!
 
   # Pods for Test
+  pod 'Cards'
 
 end

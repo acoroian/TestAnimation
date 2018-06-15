@@ -10,7 +10,9 @@ import Foundation
 
 
 import UIKit
+import Cards
 
 class ImageCell: UICollectionViewCell {
+    @IBOutlet weak var card : CardArticle?
     @IBOutlet weak var contentImage: UIImageView?
 }
